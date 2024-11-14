@@ -1,0 +1,62 @@
+/*************************MEDIA QUERIE***********************************/
+@media screen and (max-width:1200px) {
+    .nav-top .nav-items {
+        display: none;
+    }
+    
+    .website-logo {
+        min-width: auto;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .website-search-bar{
+        display: none;
+    }
+    .website-details{
+        justify-content: space-between;
+    }
+    .nav-right {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .nav-top .nav-message {
+        font-size: 0.6rem;
+    }   
+    .website-call-us,
+    .website-icon {
+        display: none;
+    } 
+    .website-details {
+        padding: 0 15px;
+    }
+    .fa-bars {
+        display: block;
+    }
+    .nav-left{
+        display: none;
+    }
+    .logo h3 a {
+        margin: 5px 0 ;     
+    }
+    .nav-top {
+        padding-top: 5px;
+    }
+    .banner-promo {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .nav-top .nav-message {
+        font-size: 0.5rem;
+    }    
+}
+@media screen and (max-width:427px) {
+    .nav-top .nav-message {
+        display: none;
+    }    
+}

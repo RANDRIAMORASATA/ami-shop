@@ -1,0 +1,138 @@
+.featured{
+    background-color: var(--main-color-gray-light);
+}
+.featured-item-container {
+  flex-wrap: wrap;
+}
+.featured-item {
+  width: 250px;
+  height: 400px;
+  border: none;
+}
+.featured-item .featured-image {
+  width: 100%;
+  height: 250px;
+  border: none;
+}
+.featured-item .featured-image img {
+  width: 100%;
+  height: 100%;
+}
+.featured-item:hover {
+  width: 300px;
+  height: 450px;
+}
+
+.title-featured h2 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.title-featured h2::after,
+.title-featured h2::before {
+  content: " ";
+  border-top: 1px solid var(--main-color-gray);
+  flex: 1;
+  height: 0;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+}
+.featured-image img {
+  width: 100%;
+}
+
+.featured-details h3 {
+  font-size: 1rem;
+  color: var(--main-color-gray);
+  text-transform: uppercase;
+}
+.featured-details .icon-stars i {
+  font-size: 0.7rem;
+}
+.featured-details .icon-stars i.active {
+  color: var(--main-color-yellow);
+}
+
+.featured-details .featured-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.featured-details .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.featured-details .featured-btn {
+  background-color: #ccc;
+  color: var(--main-color-gray);
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.featured-image-content{
+    top: 5px !important;
+    left: 4px !important;
+}
+.featured-image-content :nth-child(1){
+    top: 5px !important;
+    left: 4px !important;
+}
+.featured-image-content :nth-child(2) {
+    top: 32px !important;
+    left: 4px !important;
+}
+
+.btn.success{
+  background-color: green;
+
+}
+.btn.danger {
+  background-color: red;
+}
+
+.featured-image-content .btn {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  color: var(--main-color-white);
+  font-size: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 928) {
+  .title-featured h2 {
+    font-size: 0.9rem;
+  }
+  .title-featured h2::after,
+  .title-featured h2::before {
+    top: 12px;
+  }
+  .featured-item-container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 728) {
+
+}
+@media screen and (max-width: 427) {
+.title-featured {
+    text-align: center;
+    font-size: 0.6rem;
+    white-space: nowrap;
+}
+  .featured-item-container {
+    justify-content: center;
+  }
+  .featured-item {
+    margin: 0 auto !important;
+  }
+}

@@ -1,0 +1,255 @@
+/*******************BANNER PROMO******************************/
+.banner-promo-container{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+}
+.banner-promo{
+    line-height: 40px;
+    font-size: 1.3rem;
+}
+.banner-promo span{
+    border: 1px solid var(--main-color-white);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/********************NAV TOP****************************/
+.nav-top-container {
+    border-bottom: 1px solid #ccc;
+}
+.nav-top{
+    color: var(--main-color-gray);
+    font-weight: 600;
+    white-space: nowrap;
+}
+.nav-top select{
+    color: var(--main-color-gray);
+    font-weight: 600;
+}
+.nav-top .nav-message{
+   text-transform: uppercase;
+}
+.nav-top .nav-items ul li a:hover{
+   color: var(--main-color);
+}
+
+/*************************Website details**************************************/
+.website-details {
+    border-bottom: 0.1px solid #ccc;
+}
+
+.website-logo {
+    min-width: 200px;
+}
+
+.fa-bars {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    display: none;
+}
+.website-search-bar  {
+    height: 50px;
+}
+.website-search-bar  input{
+    background-color: #efefef;
+    border :1px solid gray;
+    border-radius: 50px 0 0 50px;
+    outline:none;
+    border-right: 1px solid var(--main-color-white);
+    font-size: 1.2rem;
+}
+.website-search-bar  select{
+    background-color: #efefef;
+    border :1px solid gray;
+    outline:none;
+    border-left: 1px solid var(--main-color-white);
+    border-right: 1px solid var(--main-color-white);
+    font-size: 1.2rem;
+}
+.website-search-bar  .search-icon {
+    background-color: #efefef;
+    border :1px solid gray;
+    width: 50px;
+    border-radius: 0 50px 50px 0;
+    border-left: 1px solid var(--main-color-white);
+}
+
+.website-call-us {
+    height: 50px;
+}
+.website-call-us .call-message h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-color-gray);
+}
+.website-call-us .call-message {
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.website-icon .website-icon-item i{
+    font-size: 1.5rem;
+}
+
+/*******************************Nav left et nav right************************************/
+nav {
+    position: sticky;
+    top:0;
+    background-color: var(--main-color-white);
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+
+}
+.nav-container .nav-left ul li a{
+    text-transform: uppercase; 
+    
+}
+.nav-container ul li a{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    border-top: 2px solid var(--main-color-white);
+    border-bottom: 2px solid var(--main-color-white);
+}
+.nav-container ul li a.active{
+    border-top: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+
+.nav-container ul li a:hover{
+   color: var(--main-color);
+   /*border-bottom: 0.1px solid var(--main-color);*/
+   border-top: 2px solid var(--main-color);
+   
+}
+
+
+/**************************SOUS MENU NAV***************************/
+
+.nav-container ul li a i {
+    float: right;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    font-size: 0.8rem;
+    
+}
+.nav-container .sub-nav li a i {
+    float: right;
+    position: relative;
+    top: 6px;
+    right: 15px;
+    font-size: 0.8rem;
+    
+}
+.nav-container ul li:hover ul{
+    display: block;
+}
+
+.nav-container .sub-nav {
+    background-color: var(--main-color-white);
+    white-space: nowrap;
+    display: none;
+
+}
+.nav-container .sub-nav li a:hover{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+
+}
+.nav-container .sub-nav li a:hover ul{
+    display: block;
+
+}
+
+.sub-sub-nav{
+    background-color: var(--main-color-white);
+    white-space: nowrap;
+    top: 0;
+    left: 100%;
+    display: none !important;
+    
+}
+.sub-nav li:hover .sub-sub-nav{
+    display: block !important;
+}
+
+
+/*********************MEGA MENU *********************************/
+.mega-sub-nav{
+    background-color: var(--main-color-white);
+    display: none;
+}
+.mega-sub-nav .mega-item{
+    min-width: 250px;
+    border-right: 0.1px solid var(--main-color-gray);
+    padding: 10px;
+}
+.mega-sub-nav .mega-item h3{
+    padding: 0 10px;
+    margin: 0;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.mega-sub-nav .mega-item a{
+    padding: 8px 0;
+    color: var(--main-color-gray);
+    font-size: 0.9rem;
+}
+.mega-sub-nav .mega-item img{
+  width: 100%;
+  height: 380px;
+}
+.mega-sub-nav .mega-item li a:hover{
+    border-top: 2px solid var(--main-color-white);
+}
+.mega-sub-nav .mega-item:nth-child(3){
+    min-width: 250px;
+    border-right: none;
+}
+.mega-sub-nav ul li a{
+    background-color: var(--main-color-white);
+}
+
+.mega-sub-nav .mega-item .mega-item-content{
+  top: 20px;
+  right: 20px;
+}
+
+.mega-sub-nav .mega-item .mega-item-content span{
+ font-size: 2rem;
+}
+.mega-sub-nav .mega-item .mega-item-content h4{
+ font-size: 2.5rem;
+}
+.mega-sub-nav .mega-item .mega-item-content h3{
+ font-size: 3rem;
+ color: var(--main-color);
+ margin: 0 !important;
+}
+.mega-sub-nav .mega-item button.btn{
+    bottom: 20px;
+    left: 8%;
+    background-color: var(--main-color-black);
+    color: var(--main-color-white);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 80%;
+ 
+}
+
+li:hover #mega-sub-nav{
+    display: flex !important;
+}
+
+
